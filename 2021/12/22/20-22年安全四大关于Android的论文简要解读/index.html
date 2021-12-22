@@ -16,17 +16,19 @@
   <meta name="description" content="">
   <meta name="author" content="Pricx">
   <meta name="keywords" content="">
-  <meta name="description" content="IEEE Symposium on Security and Privacys&amp;p 22Exploit the Last Straw That Breaks Android Systems（张源）  通过深入data storing process发现针对安卓系统的新的DoS攻击，设计StrawFuzzerThe Android system services usually play a">
+  <meta name="description" content="想起来读一读近两年关于安卓的顶会，学习下方向什么的，这也算是最近几天的劳动成果了。  IEEE Symposium on Security and Privacys&amp;p 22Exploit the Last Straw That Breaks Android Systems（张源）  通过深入data storing process发现针对安卓系统的新的DoS攻击，设计StrawFuzze">
 <meta property="og:type" content="article">
 <meta property="og:title" content="20-22年安全四大关于Android的论文简要解读">
 <meta property="og:url" content="http://example.com/2021/12/22/20-22%E5%B9%B4%E5%AE%89%E5%85%A8%E5%9B%9B%E5%A4%A7%E5%85%B3%E4%BA%8EAndroid%E7%9A%84%E8%AE%BA%E6%96%87%E7%AE%80%E8%A6%81%E8%A7%A3%E8%AF%BB/index.html">
 <meta property="og:site_name" content="Pricx&#39;s B10g">
-<meta property="og:description" content="IEEE Symposium on Security and Privacys&amp;p 22Exploit the Last Straw That Breaks Android Systems（张源）  通过深入data storing process发现针对安卓系统的新的DoS攻击，设计StrawFuzzerThe Android system services usually play a">
+<meta property="og:description" content="想起来读一读近两年关于安卓的顶会，学习下方向什么的，这也算是最近几天的劳动成果了。  IEEE Symposium on Security and Privacys&amp;p 22Exploit the Last Straw That Breaks Android Systems（张源）  通过深入data storing process发现针对安卓系统的新的DoS攻击，设计StrawFuzze">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/20-22dkhvanvolywf/%E6%88%AA%E5%9B%BE20211222202402.png">
 <meta property="article:published_time" content="2021-12-22T12:00:30.000Z">
-<meta property="article:modified_time" content="2021-12-22T12:21:04.982Z">
+<meta property="article:modified_time" content="2021-12-22T12:28:13.912Z">
 <meta property="article:author" content="Pricx">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/img/20-22dkhvanvolywf/%E6%88%AA%E5%9B%BE20211222202402.png">
   
   <title>20-22年安全四大关于Android的论文简要解读 - Pricx&#39;s B10g</title>
 
@@ -250,7 +252,9 @@
               </p>
             
             <div class="markdown-body">
-              <h2 id="IEEE-Symposium-on-Security-and-Privacy"><a href="#IEEE-Symposium-on-Security-and-Privacy" class="headerlink" title="IEEE Symposium on Security and Privacy"></a><a target="_blank" rel="noopener" href="https://www.ieee-security.org/TC/SP2022/">IEEE Symposium on Security and Privacy</a></h2><h3 id="s-amp-p-22"><a href="#s-amp-p-22" class="headerlink" title="s&amp;p 22"></a>s&amp;p 22</h3><p>Exploit the Last Straw That Breaks Android Systems（张源）</p>
+              <p>想起来读一读近两年关于安卓的顶会，学习下方向什么的，这也算是最近几天的劳动成果了。</p>
+<p><img src="/img/20-22dkhvanvolywf/%E6%88%AA%E5%9B%BE20211222202402.png" srcset="/img/loading.gif" lazyload alt="最近下载的论文"></p>
+<h2 id="IEEE-Symposium-on-Security-and-Privacy"><a href="#IEEE-Symposium-on-Security-and-Privacy" class="headerlink" title="IEEE Symposium on Security and Privacy"></a><a target="_blank" rel="noopener" href="https://www.ieee-security.org/TC/SP2022/">IEEE Symposium on Security and Privacy</a></h2><h3 id="s-amp-p-22"><a href="#s-amp-p-22" class="headerlink" title="s&amp;p 22"></a>s&amp;p 22</h3><p>Exploit the Last Straw That Breaks Android Systems（张源）</p>
 <blockquote>
 <p>通过深入data storing process发现针对安卓系统的新的DoS攻击，设计StrawFuzzer<br>The Android system services usually play a critical role in running multiple important tasks, and delivering seamless user experiences, e.g., conveniently storing user data. In this paper, we conduct the ﬁrst systematic security study on the <strong>data storing process</strong> in Android system services, and consequently discover a novel class of design ﬂaws (named Straw), which can <strong>lead to serious DoS (Denial-of-Service) attacks</strong>, e.g., permanently crashing the whole victim Android device.<br>Then we propose a novel directed fuzzing based approach, called StrawFuzzer, to automatically vet all system services against the straw vulnerabilities. StrawFuzzer balances the tradeoff between path exploration and vulnerability exploitation. By applying StrawFuzzer on three Android systems with the latest security updates, we identiﬁed 35 unique straw vulnerabilities affecting 474 interfaces across 77 system services and successfully generated corresponding exploits, which can be used to conduct various permanent/temporary DoS attacks. We have reported our ﬁndings with suggestions for repairing the vulnerabilities to corresponding vendors. Up to now, Google has rated our vulnerability as high severity.</p>
 </blockquote>
