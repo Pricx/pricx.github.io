@@ -1,576 +1,170 @@
-
-
 <!DOCTYPE html>
-<html lang="zh-CN" data-default-color-scheme=auto>
+<html lang="en-US">
+  <head>
+    <title>Jiaxun Zhu | Zhejiang University</title>
 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.">
+    
+    <meta name="keywords" content="minimal light">
+    
+    
+    <link rel="canonical" href="https://minimal-light-theme.yliu.me/"/>
+    
 
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/img/favicon-dark.png" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon.png" type="image/png" />
+    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
-  <link rel="icon" href="/img/favicon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  
-  <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="">
-  <meta name="author" content="Pricx">
-  <meta name="keywords" content="">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Pricx&#39;s B10g">
-<meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Pricx&#39;s B10g">
-<meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="Pricx">
-<meta name="twitter:card" content="summary_large_image">
-  
-  <title>Pricx&#39;s B10g</title>
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
 
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
 
-
-
-<!-- 主题依赖的图标库，不要自行修改 -->
-
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
-
-
-
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
-
-
-<link  rel="stylesheet" href="/css/main.css" />
-
-<!-- 自定义样式保持在最底部 -->
-
-
-  <script id="fluid-configs">
-    var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":120,"cursorChar":"_","loop":true},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":3},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
-  </script>
-  <script  src="/js/utils.js" ></script>
-  <script  src="/js/color-schema.js" ></script>
-<meta name="generator" content="Hexo 5.4.0"></head>
-
-
-<body>
-  <header style="height: 100vh;">
-    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
-  <div class="container">
-    <a class="navbar-brand" href="/">
-      <strong>Pricx&#39;s B10g</strong>
-    </a>
-
-    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <div class="animated-icon"><span></span><span></span><span></span></div>
-    </button>
-
-    <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto text-center">
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/">
-                <i class="iconfont icon-home-fill"></i>
-                首页
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/archives/">
-                <i class="iconfont icon-archive-fill"></i>
-                归档
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/categories/">
-                <i class="iconfont icon-category-fill"></i>
-                分类
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/tags/">
-                <i class="iconfont icon-tags-fill"></i>
-                标签
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
-              <a class="nav-link" href="/about/">
-                <i class="iconfont icon-user-fill"></i>
-                关于
-              </a>
-            </li>
-          
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
         
         
-          <li class="nav-item" id="search-btn">
-            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
-              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
-            </a>
-          </li>
+        <a class="image avatar"><img src="./assets/img/avatar.png" alt="avatar" /></a>
+        
+
+        <h1>Jiaxun Zhu</h1>
+
+        
+        <position style="font-size:1.10rem;">Ph.D. Student</position>
+        <br>
         
         
-          <li class="nav-item" id="color-toggle-btn">
-            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
-                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
-          </li>
+        <a href="" rel="noopener"><autocolor>Zhejiang University</autocolor></a>
+        <br>
         
-      </ul>
-    </div>
-  </div>
-</nav>
+        
+        <email>sevenswords[AT]zju.edu.cn  svnswords[AT]outlook.com</email>
+        
 
-    <div class="banner" id="banner" parallax=true
-         style="background: url('/img/bg/girl-sea.jpg') no-repeat center center;
-           background-size: cover;">
-      <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
-          <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="今夕何夕，更行更远无绝期">
-              
-            </span>
+        <br>
+        <br>
+        <div class="social-icons">
+        
 
-            
-          </div>
+        
 
-          
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
-          
+        
+        <a style="margin: 0 5px 0 0" href="https://github.com/Pricx">
+          <i class="fab fa-github"></i>
+        </a>
+        
+
+        
+
+        
+        <a style="margin: 0 0 0 0" href="https://twitter.com/svnswords">
+          <i class="fab fa-twitter"></i>
+        </a>
+        
         </div>
-      </div>
-    </div>
-  </header>
+        <br>
 
-  <main>
-    
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          style=margin-top:0>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      </header>
+      <section>
 
+      <h2 id="about-me">About Me</h2>
 
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/12/26/%E6%97%A0%E9%A2%98/" target="_self">
-          世界上只有一种英雄主义
-        </a>
-      </h1>
+<p>I’m a first-year Ph.D. student in the Department of Computer Science at Zhejiang University, China, supervised by <a href="https://wenboshen.org">Prof. Wenbo Shen</a>. I am also a member of the AAA CTF team (plz ddw) and my research interests include software and system security (macOS/Android/iOS). I love pure/instrumental and pop music.</p>
 
-      <p class="index-excerpt">
-        <a href="/2021/12/26/%E6%97%A0%E9%A2%98/" target="_self">
-          
-          
-            
-          
-          还记得应该是小学的时候，在单元末尾，会有名人名言。其中令我印象深刻的句子之一便是
+<h2 id="research-interests">Research Interests</h2>
 
-世界上只有一种真正的英雄主义，那就是看清生活的真相之后，依然热爱生活。——罗曼·罗兰
-即
-“There is only one heroism in the world: to see the world as it is, and to love it.” – Romain Rolland, Life of Mi
-        </a>
-      </p>
+<ul>
+  <li><strong>Reverse Engineering</strong></li>
+  <li><strong>Bug Hunting</strong></li>
+  <li><strong>Virtualization</strong></li>
+</ul>
 
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-12-26 00:37" pubdate>
-              2021-12-26
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
+<h2 id="news">News</h2>
+
+<ul>
+  <li><strong>[May. 18, 2023]</strong> Our talk was accepted to <a href="https://www.blackhat.com/us-23/briefings/schedule/#apple-pac-four-years-later-reverse-engineering-the-customized-pointer-authentication-hardware-implementation-on-apple-m1-32824">Black Hat USA 2023</a> in the first cycle for <strong>reverse engineering the Apple M1 pointer authentication hardware implementation</strong>.</li>
+  <li><strong>[Aug. 31, 2021]</strong> Won the first prize of the<a href="http://www.ciscn.cn/announcement/view/235"> National College Student Information Security Contest 2021（第十四届（2021）全国大学生信息安全竞赛）</a> for <strong>building a universal framework to conveniently protect privacy, like sensitive data from the clipboard, file system, location, etc., based on virtualizing the Java API Framework Layer of Android and App-in-App (Plugin) tech</strong>.</li>
+</ul>
+
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+
+<div class="publications">
+<ol class="bibliography">
+
+<li>
+<div class="pub-row">
+
+<div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/bhusa2023.png" class="teaser img-fluid z-depth-1" />
+    <abbr class="badge">BHUSA</abbr>
   </div>
 
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/12/23/%E7%BB%8F%E5%8E%86%E6%9C%AC%E7%A7%91%E5%90%8E%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/" target="_self">
-          经历本科后的一些想法
-        </a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/12/23/%E7%BB%8F%E5%8E%86%E6%9C%AC%E7%A7%91%E5%90%8E%E7%9A%84%E4%B8%80%E4%BA%9B%E6%83%B3%E6%B3%95/" target="_self">
-          
-          
-            
-          
-          在这之前，可以读一读《上海交通大学学生生存手册》，其作者侯晓迪 主页：Xiaodi Hou’s Homepage (houxiaodi.com)，曾是上交本科生，后赴美California Institute of Technology做Computation and Neural Systems。
-
-我们的科技进步如此之快，以至于现在还有很多人在使用陈旧腐朽的方法论指导学习
-即：不会用轮子（指不
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-12-23 14:37" pubdate>
-              2021-12-23
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/12/22/20-22%E5%B9%B4%E5%AE%89%E5%85%A8%E5%9B%9B%E5%A4%A7%E5%85%B3%E4%BA%8EAndroid%E7%9A%84%E8%AE%BA%E6%96%87%E7%AE%80%E8%A6%81%E8%A7%A3%E8%AF%BB/" target="_self">
-          20-22年安全四大关于Android的论文简要解读
-        </a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/12/22/20-22%E5%B9%B4%E5%AE%89%E5%85%A8%E5%9B%9B%E5%A4%A7%E5%85%B3%E4%BA%8EAndroid%E7%9A%84%E8%AE%BA%E6%96%87%E7%AE%80%E8%A6%81%E8%A7%A3%E8%AF%BB/" target="_self">
-          
-          
-            
-          
-          想起来读一读近两年关于安卓的顶会，学习下方向什么的，这也算是最近几天的劳动成果了。
-
-IEEE Symposium on Security and Privacys&amp;p 22Exploit the Last Straw That Breaks Android Systems（张源）
-
-通过深入data storing process发现针对安卓系统的新的DoS攻击，设计StrawFuzze
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-12-22 20:00" pubdate>
-              2021-12-22
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/12/14/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9C%9F%E8%B1%A1%E8%BF%98%E5%8E%9F/" target="_self">
-          《操作系统真象还原》笔记
-        </a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/12/14/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9C%9F%E8%B1%A1%E8%BF%98%E5%8E%9F/" target="_self">
-          
-          
-            
-          
-          本文为《操作系统真象还原》笔记，其中入门稍有困难。
-入个门这里配置环境会比较坑，所以写了出来。
-安装bochs环境：ubuntu16.04_x64
-最新直接在16.04里
-1apt install bochs bochs-x
-
-不能在19.04+里安装（不是安装不上，是后面向显存写入内容不显示）。。。不然没输出，不知道咋回事。。。
-但是这个不能gdb调试, 但也不好使用gdb调试. 不说这东西不支
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-12-14 21:11" pubdate>
-              2021-12-14
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/11/21/%E5%BD%A2%E5%BC%8F%E7%9C%8B%E6%B3%95/" target="_self">
-          形式分析
-        </a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/11/21/%E5%BD%A2%E5%BC%8F%E7%9C%8B%E6%B3%95/" target="_self">
-          
-          
-            
-          
-          曾经想写一个形式分析以期对个人抉择进行参考，但是苦于非科班出身且高中学的还是理科，所以整的断断续续且很艰难，到现在为止也只有个大纲。同时，因为人口是经济活动的基石，所以人口相关也是我20年底以来持续关注的话题，这也成了这份文档篇幅较多的一部分。这份文档也将是一些我和朋友长久讨论的一些话题的集合，我会持续完善这份文档，直至其成为一个决策参考。
-21年9月以来，相继有很多位21级的学弟学妹来询问我学习
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-11-21 20:11" pubdate>
-              2021-11-21
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/11/21/Inception/" target="_self">
-          Inception
-        </a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/11/21/Inception/" target="_self">
-          
-          
-            
-          
-          缘由大致是第二次搞博客了，第一次（大一的暑假）是在自己的服务器上搞的博客，当时疯狂学初等数论，然后每天就把写的笔记放到了博客上。但后来服务器不维护了，博客也就放弃了，而且当时也没用hexo，所以发的文章也不是用git去管理的，麻烦。
-如果是用别的托管的话，虽然知乎也能用，但是知乎上我用的是个假身份，主要是因为知乎上动态我不能设置选择性的可见，所以不想在知乎上发博客；而csdn的话，我感觉阅读起来太
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-11-21 16:37" pubdate>
-              2021-11-21
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-
-
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    
-
-    
-      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
-        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
-      </a>
-    
-
-    
-      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
-     aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
-        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v"
-                 for="local-search-input">关键词</label>
-        </div>
-        <div class="list-group" id="local-search-result"></div>
-      </div>
-    </div>
+<div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://www.blackhat.com/us-23/briefings/schedule/#apple-pac-four-years-later-reverse-engineering-the-customized-pointer-authentication-hardware-implementation-on-apple-m1-32824">Apple PAC, Four Years Later: Reverse Engineering the Customized Pointer Authentication Hardware Implementation on Apple M1</a></div>
+    <div class="author"><a href="https://zech4o.github.io">Zechao Cai</a>, <strong>Jiaxun Zhu</strong>, Yutian Yang, <a href="https://wenboshen.org">Wenbo Shen</a>, <a href="https://www.cyberserval.com/us/about">Yu Wang</a></div>
+    <div class="periodical"><em>Black Hat USA<strong>(BHUSA)</strong> 2023. Mandalay Bay, Las Vegas.</em></div>
+    <!-- <div class="links">
+      <a href="https://arxiv.org/pdf/2002.10211.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/yaoyao-liu/mnemonics" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://class-il.mpi-inf.mpg.de/mnemonics/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://dblp.uni-trier.de/rec/conf/cvpr/LiuSLSS20.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+    </div> -->
   </div>
 </div>
-    
+</li>
 
-    
-  </main>
 
-  <footer class="text-center mt-5 py-3">
-  <div class="footer-content">
-     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
-  </div>
-  
-  <div class="statistics">
-    
-    
 
-    
+
+
+<br />
+
+</ol>
+</div>
+
+<!-- ## Services
+
+<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+
+<ul style="margin:0 0 5px;">
+  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
+  <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2021</autocolor></a></li>
+  <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li>
+</ul>
+
+<h4 style="margin:0 10px 0;">Journal Reviewers</h4>
+
+<ul style="margin:0 0 20px;">
+  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
+  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
+</ul> -->
+
+<h2 id="links">Links</h2>
+
+<p><a href="https://zech4o.github.io">Zechao Cai</a></p>
+
+<p><a href="https://pan-ziyue.github.io/">Ziyue Pan</a></p>
+
+
+      <br>
+
       
-        <!-- 不蒜子统计PV -->
-        <span id="busuanzi_container_site_pv" style="display: none">
-            总访问量 
-            <span id="busuanzi_value_site_pv"></span>
-             次
-          </span>
+      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
       
-      
-        <!-- 不蒜子统计UV -->
-        <span id="busuanzi_container_site_uv" style="display: none">
-            总访客数 
-            <span id="busuanzi_value_site_uv"></span>
-             人
-          </span>
-      
+
+      </section>
+      <footer>
+        
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
     
-  </div>
-
-
-  
-
-  
-</footer>
-
-
-  <!-- SCRIPTS -->
-  
-  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
-  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
-
-  <script>
-    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
-    NProgress.start()
-    window.addEventListener('load', function() {
-      NProgress.done();
-    })
-  </script>
-
-
-<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
-<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
-<script  src="/js/events.js" ></script>
-<script  src="/js/plugins.js" ></script>
-
-<!-- Plugins -->
-
-
-  <script  src="/js/local-search.js" ></script>
-
-
-
-  
-    <script  src="/js/img-lazyload.js" ></script>
-  
-
-
-
-  
-
-
-
-
-
-  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
-
-
-
-
-  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
-  <script>
-    (function (window, document) {
-      var typing = Fluid.plugins.typing;
-      var title = document.getElementById('subtitle').title;
-      
-      typing(title)
-      
-    })(window, document);
-  </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 主题的启动项 保持在最底部 -->
-<script  src="/js/boot.js" ></script>
-
-
-</body>
+  </body>
 </html>
